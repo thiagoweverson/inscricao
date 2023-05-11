@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>inscricao</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/index.js" defer></script>
+</head>
+
+
+<body>
+  <div class="box">
+
+    
+
+    <h1>DADOS PARA INSCRIÇÃO</h1>
+
+    <form id="my-form" action="https://formsubmit.co/ajax/thiagoweverson@gmail.com" method="POST">
+
+    <input class="inp" type="text" name="name" placeholder="Digite seu nome completo" required>
+
+ 
+    
+    <input class="inp" type="text" name="apelido" placeholder="Apelido" required>
+    
+ 
+    
+    <input class="inp" type="number" name="idade" placeholder="Idade" required>
+    
+    
+    
+    <input class="inp" type="text" name="cidade" placeholder="Cidade" required>
+    
+    
+
+
+    <input class="mod" type="text" placeholder="Modalidade" list="faixa" required>
+            
+            <datalist id="faixa">          
+                <option value="BMX"></option>
+                <option value="SKATE"></option>
+            </datalist>
+
+    
+   
+
+
+    <input class="mod" type="text" placeholder="Categoria" list="id2" required>
+            
+            <datalist id="id2">          
+                <option value="INICIANTE (SKATE)"></option>
+
+                <option value="OPEN (SKATE)"></option>
+
+                <option value="OPEN (BMX)"></option>
+
+                <option value="PROFISSIONAL (BMX)"></option>
+            </datalist>
+    
+    
+
+    <input class="inp" type="text" name="Instagram" placeholder="instagram">
+
+
+    
+
+    <button type="submit">ENVIAR</button>
+   
+    
+
+      <!-- Configuraçoes da pagina  -->
+
+    <input type="hidden" name="_subject" value="Nova inscrição!"> <!-- notificar nova inscricao -->
+    <input type="text" name="_honey" style="display:none"> <!-- evitar span -->
+    <input type="hidden" name="_captcha" value="false">  <!-- desabilitar captcha -->
+  </form>
+
+
+  </div>
+</body>
+</html>
